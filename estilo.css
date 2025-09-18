@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: 90%;
+    
+}
+.altera-fonte{
+    background-color: rgb(14, 14, 14);
+    color: #ededed;
+    font-family: 'Roboto', Courier, monospace;
+    border: transparent;
+    width: 5%;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 4.8vh;
+    transition: 200ms opacity ease;
+}
+.altera-fonte:hover{
+    opacity: 0.8;
+}
+.altera-fonte p{
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+body{
+    background-color: #ededed;
+}
+
+p{
+    font-size: 1.2rem;
+}
+.card{
+    border: solid 1px;
+}
